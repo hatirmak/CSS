@@ -1,49 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>CSS Grid</title>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chufchuf</title>
+    <link rel="stylesheet" href="css/main.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <div class="container">
+            <a class="logo" href="#">Chuf<span>Chuf</span></a>
 
-        <link rel="stylesheet" href="style/style.css">
-    </head>
-    <body>
-        <header>
-            <div class="brand">Lorem Cat Brand</div>
-            <nav>Lorem Cat Navigation</nav>
-            <div class='tools'>Lorem Cat Tools</div>
-        </header>
+            <img id="mobile-cta" class="mobile-menu" src="images\menu-orange.png" alt="Open Navigation">
 
-        <div class="hero">
-            <div class="feature">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae beatae, velit temporibus, impedit nobis ipsa tempore voluptates?</p>
-            </div>
-            <div class='action'>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-            </div>
+            <nav>               
+                <ul class="primary-nav">
+                    <li class="current"><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Features</a></li>
+                </ul>
+
+                <ul class="secondary-nav">
+                    <li><a href="#">Contact</a></li>
+                    <li class="download-the-app"><a href="#">Download the App</a></li>
+                </ul>
+            </nav>
         </div>
+    </div>
 
-        <div class="desktop-ad"><img src="img/cat.png" alt="Ad"></div>
+    <section class="hero">
+        <div class="container">
+            <div class="left-col">
+                <p class="subhead">Quick As A Wheek</p>
+                <h1>A Rodent Adoption App</h1>
 
-        <main>
-            <article class="feature"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p></article>
-            <div class="mobile-ad"><img src="img/cat.png" alt="Ad"></div>
-            <article class="listing">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi fugit repellat accusamus vitae, non fuga voluptatum suscipit officiis minus aut, 
-                    tempore incidunt! Esse aperiam nihil rerum aspernatur dolore expedita tenetur!</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae beatae, velit temporibus, impedit nobis ipsa tempore voluptates dignissimos dolores 
-                    dicta culpa labore, voluptate accusamus est? Ullam fugiat obcaecati quibusdam a?</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae beatae, velit temporibus, impedit nobis ipsa tempore voluptates dignissimos dolores 
-                    dicta culpa labore, voluptate accusamus est? Ullam fugiat obcaecati quibusdam a?</p>
-            </article>
-        </main>
-
-        <div class="sidebar">
-            <div class="feature">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <div class="hero-cta">
+                    <a href="#" class="primary-cta">Adopt Now!</a>
+                    <a href="#" class="watch-video-cta">
+                        <img src="images/watch.svg" alt="Watch a video"> Watch a video
+                    </a>
+                </div>
             </div>
-        </div>
 
-        <footer>Lorem Cat Footer</footer>
-    </body>
+            <img src="images\947-9476920_easter-rabbit-icon-free-download-at-icons-free.jpg" class="hero-img" alt="Illustration">
+        </div>
+    </section>
+
+    <section class="features-section">
+        <div class="container">
+            <ul class="features-list">
+                <li>Search for adoption options</li>
+                <li>Hamsters, bunnies, and guineapigs</li>
+                <li>Share your adoption listing</li>
+                <li>Chat with contacts easily</li>
+                <li>Rodent friendly logistics</li>
+                <li>NO SALE ALLOWED, adoption only!</li>
+            </ul>
+
+            <img src="images\holding the bunny.jpeg.jpg" alt="Woman holding a bunny">
+        </div>
+    </section>
+
+</body>
 </html>
